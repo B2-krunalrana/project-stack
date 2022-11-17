@@ -9,6 +9,7 @@ g@g.in  ------- minmum langth of gmail is 6 charactore all small
 
 
 
+
 email =input("entre Your Email ---> ")
 error1,error2,error3,erorr4="mimum 6 char Requird (g@g.in)","Frist Cahr should be char","@ Error (count==1 or @ not more then 1)",". palce is not correct (use only once)"
 k,j,d=0,0,0
