@@ -1,0 +1,402 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{Krunal Rana}{ \urlstyle{same}\href{http://krunalrana.site}{www.krunalrana.site}  \href{}{}\\
+\href{ranakrunal2704@gmail.com}{ranakrunal2704@gmail.com} |\href{+919824085934}{+91 98240 85934}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+% \subsection{GTU University}
+% \descript{electronics and communication}
+% \location{Jun 2022 | VVnagr, IND}
+% \location{Jun 2022 | VVnagr, IND}
+% \sectionsep
+
+\subsection{Gujrat Technological \ \\ University}
+\descript{B.Tech Electronics and \ \ \ Communication}
+G.H Patel College of Engineering \\
+Technology\\
+\location{Jun 2022 | VV NAGER,GUJ,IND}
+
+
+% \location{ Cum. GPA: 3.83 / 4.0 \\
+% Major GPA: 3.9 / 4.0}
+\sectionsep
+
+\subsection{GSEB Hsc-PCM }
+A J High school, vaso.\\
+\location{April 2018 | Gujarat, India}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+LinkedIn://  \href{https://www.linkedin.com/in/krunal-rana/}{\bf in/krunal-rana/} \\
+Github:// \href{https://github.com/B2-krunalrana}{\bf B2-krunalrana} \\
+Codepen://  \href{https://codepen.io/b2-krunalrana}{\bf b2-krunalrana} \\
+Twitter://  \href{https://twitter.com/ranakrunal2704}{\bf ranakrunal2704} \\
+% Facebook:// \href{https://facebook/dd}{\bf dd} \\
+% Quora://  \href{https://www.quora.com/Debarghya-Das}{\bf Debarghya-Das}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\sectionsep
+
+\section{Coursework}
+\subsection{Graduate}
+Machine Learning \\
+Open Source Software Engineering \\
+Image Processing  \\
+Python-Algorithm \\
+C \& C++ programming  \\
+% Cloud Computing \\
+% Evolutionary Computation \\
+% Defending Computer Networks \\
+\sectionsep
+
+\subsection{Certificate}
+How google dose Machin Learning \\
+Banking & Finance Market [ IIM-B ] \\
+C++ | Python | Html | CSS Courses \\
+Functional Programming \\
+Digital Marketing - SEO \\
+% {\footnotesize \textit{\textbf{(Research Asst. \& Teaching Asst 2x) }}} \\
+% Unix Tools and Scripting \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\sectionsep
+\section{Skills}
+\subsection{development}
+\location{Over 5000 lines:}
+Python \textbullet{} Html   \textbullet{} css \textbullet{}  Javascript  \\
+% OCaml \textbullet{} Matlab \textbullet{} Rails \textbullet{} \LaTeX\ \\ 
+\location{Over 1000 lines:}
+ Django\textbullet{} nodeJS \textbullet{} WordPress \\ \textbullet{} Bootstrap \textbullet{} oracle sql  \\
+\location{Familiar:}
+Git \textbullet{} Github \textbullet{} jQuery \textbullet{} MySQL \\
+\ \ \\
+\subsection{Digital Marketing}
+% \location{Digital Marketing:}
+SEO \textbullet{} Analytics \textbullet{} Digital Presence \textbullet{} Webmaster \textbullet{} Technical writing
+\sectionsep
+\subsection{Soft Skills}
+Ms Office \textbullet{} Photoshop \textbullet{} Premiere Pro  \\ \textbullet{} Canva\textbullet{} Figma\textbullet{} Google Workspace \\ 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+% \runsubsection{}
+\runsubsection{UNNATI INFORMATICS LLP}
+\descript{| Full-Stack Developer }
+\location{Jan 2022 – Oct 2022 | Ahmedabad, IND}
+% \sectionsep
+
+% \runsubsection{Coursera}
+% \descript{| KPCB Fellow + Software Engineering Intern }
+% \location{Jan 2022 – Oct 2022 | Ahmedabad, IND}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Full-stack developer - Wrote and reviewed code for hmtl | JS | SEO 
+\item Led sprint planning meetings and divided tasks between a 16-person project team.
+\item Worked on high-impact projects. e.g.design Home page | change dashboard feature design for client website 
+\item Key achievement : Develop a new feature for the client's website : \\  tool ( woo tick website integration : activate feature ) in 17 Active Days 
+\\ tech stack : PHP | CMS
+% Content management system : cms 
+\end{tightemize}
+\sectionsep
+
+\runsubsection{ESSL}
+\descript{| intern 4 month | Freelancing 7 months }
+\location{Jun 2021 – March 2022 | Bangalore and Ahmadabad, IND}
+\begin{tightemize}
+\item Worked with the Essl's E-Time track Lite development team on SWAP feature 
+\item Freelancing for BioID Technologies -as Digital marketing assistant work on : product page rank | lending page | email template | product catalog   
+    
+
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Freelancing}
+\descript{| Digital marketing | web Development | SEO }
+\location{Jan 2020 – Present}
+\begin{tightemize}
+\item severed SEO services for 3 major clients .
+\item Developed website for Jewellers.
+\item lead team of 6 person and give most affordable package which includes landing page | blogs | photography | digital asset creation  for resort. \\
+For more : \href{https://www.krunalrana.site/}{www.krunalrana.site} 
+\end{tightemize}
+% \sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Project
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{ Training }\\
+\location{\href{https://pyspiders.com/python-full-stock/course}{Python Full Stack Development Co-Training - As incubation} } \\
+ July 2022 – Present | Q-spider -Py spider ,Basavanagudi ,Bangalore,IND.
+\sectionsep
+\section{Project}
+\runsubsection{Vehicle monitoring system -}
+\descript{| University Project}
+\location{2021 -2022 | GCET VV NAGER,IND}
+Worked with \textbf{\href{https://www.gcet.ac.in/staffdetails.php?fid=VDA0NA==}{Dr.Hitesh Shah}} and \textbf{\href{https://www.gcet.ac.in/staffdetails.php?fid=VDE2NA==}{Dr. Falgun Thakkar}} to create \textbf{VMH}, a tool which  track \& monitor vehicle  as well as driver activities and display on web-app . 
+\sectionsep
+
+\runsubsection{ dictator ant a CRM }
+\descript{| UNNATI INFORMATICS }
+\location{Jan 2022 – March 2022 | Ahmadabad, IND}
+CRM for small enterprise \textbf{QuickTongue}, which provides inventory management and customer database .Devlop fetures around Whats App and Trading technologies  \\
+Tech Stack : Python - Django \\
+% \sectionsep
+
+% Project Gallery :\textbf{\href{https://www.krunalrana.site/}{www.krunalrana.site}}
+
+% \sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{proud to be part of} 
+\begin{tabular}{rll}
+2018-2021	     &NCC   & 28 Batline senior\\
+2019-2020	     &CSI  & Member at Computer Society of India\\
+2020-2022	     &ABVP  & Vice Pr.ABVP \\
+2004-Pres*     &BAPS.org  & BAL - YUVA - BSS karykar   \\
+2022-pres*     & BAPS     & \href{https://psm100.org/}{www.psm100.org } dev-team  \\
+2019-2020     & Maitry NGO & Tech adv at \href{https://www.maitriindia.org/}{www.maitriindia.org }  \\
+\end{tabular}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PUBLICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \sectio% \sectio
+
+\textbf{DOCUMENT | Project Gallery | Certification | Profile links  : \\
+ \textit{{  \href{https://www.krunalrana.site/}{www.krunalrana.site} } }}\\ 
+\sectionsep
+
+ 
+% \renewcommand\refname{\vskip -1.5em} % Couldn't get this working from the .cls file
+% \bibliographystyle{abbrv}
+% \bibliography{publications}
+% \nocite{*}
+\sectionsep
+
+\end{minipage} 
+\sectionsep
+\section{Skill Summary}
+
+\subsection{Python}
+\\
+\begin{itemize}
+\item \textbf{Basics} : conditional and looping statements,functions,file handling
+\end{itemize}
+\begin{itemize}
+\item \textbf{Oops} : object ,class,Encapsulation,Inheritance,Polymorphism,Overriding-loading,Decorators.
+\end{itemize}
+\begin{itemize}
+\item \textbf{Advance}:py-Database,Exceptions Handling,json,pickle,Strings
+\end{itemize}
+\begin{itemize}
+\item \textbf{Library} : Pandas ,selenium
+\end{itemize}
+\begin{itemize}
+\item \textbf{Small Project} :  \href{https://github.com/B2-krunalrana/project-stack}{github.com/B2-krunalrana/project-stack }
+\end{itemize}
+
+\subsection{Web-Development}
+\begin{itemize}
+\item html|css |Bootstrap |WordPress
+\end{itemize}
+
+\begin{itemize}
+\item JavaScript : looping and conditional statements,Functions,debugging,JS Browser BOM \& HTML DOM
+\end{itemize}
+
+\begin{itemize}
+\item django : views | models | database |admin-panel| jinja pattern
+\end{itemize}
+
+\begin{itemize}
+\item database : oracle | postgres
+\end{itemize}
+
+\subsection{Soft-Skills}
+\begin{itemize}
+\item \textbf{Digital Marketing} : SEO [keyword any | page rank | create SEO report] |email tempest | brand graphic designing
+\end{itemize}
+
+\begin{itemize}
+\item \textbf{Designing} : Photo shop | Premiere pro | canva | Figma 
+\end{itemize}
+
+\begin{itemize}
+\item \textbf{Office-tools} : Ms Office [pp|excel|word] ,google [doc|sheet|site|app script],notion.
+\end{itemize}
+
+\begin{itemize}
+\item \textbf{Software} : git | git-hub |Vs-code|sublime|pycharm
+\item \textbf{Organization-skills}:Presentation|Community build | team-work | volunteer work
+\end{itemize}\\
+
+\section{Work Summary}
+
+% \subsection{\textbf{Vehicle-Monitoring-system }}
+% \\
+% \begin{itemize}
+% \item \textbf{About Project} :
+% \end{itemize}
+
+\subsection{\textbf{Freelancing }}
+\\
+\begin{itemize}
+\item \textbf{SEO} :Served Service SEO executive rank 28+ page on top 3 results that grew traffic from 80k/month to 100-150k/month
+\begin{itemize}
+\item clients : \href{https://www.boulevard9.in/}{Boulevard 9[resort] } |4+ Jewellers | 2 Real-Estate Firms 
+\end{itemize}
+\item \textbf{web development} : 3 Jewellers site | 45+  email templates 
+\begin{itemize}
+\item tech-stack: HTML|CSS|Bootstrap | WordPress 
+\end{itemize}
+\end{itemize}
+
+\subsection{\textbf{Work }}
+\\
+\begin{itemize}
+\item \textbf{UNNATI INFORMATICS LLP } :Served work as full stack developer  
+\begin{itemize}
+\item \textbf{4 month :} \href{ http://unnatiinformatics.com/}{Work on small Clients - work } 
+\begin{itemize}
+\item tech stack : html | css | js | nodejs |PHP | py-Django | Bootstrap 
+\end{itemize}
+\item \textbf{5.2 month }  : \href{https://allevents.in/}{ Clients-site [All events in city ]  }
+\item \textbf{web development} : 3 Jewellers site | 45+  email templates 
+\begin{itemize}
+\item tech-stack: HTML|CSS|Bootstrap | PHP
+\end{itemize}
+\end{itemize}
+\item \textbf{volunteer work}: 
+\begin{itemize}
+\item \textbf{Maitri india[Nadiad,Gujarat]} : volunteering as a Tech_teacher and Tech Consultant
+\begin{itemize}
+\item tech stack : WordPress | HTML | CSS | bootstrap | ms office
+\item Visit :  \href{https://www.maitriindia.org/}{ Clients-site [www.maitriindia.org ]  }
+\end{itemize}
+\item \textbf{ Volunteering in Tech \& Designing Team } : BAPS swaminarayan Sanstha 
+\begin{itemize}
+\item work on : \href{https://balmandal.in.baps.org/}{  BAPS BAL Portal : www.balmandal.in.baps.org   }  
+\begin{itemize}
+\item \href{https://www.youtube.com/channel/UCuQNLnncEruW0pllaE0ZeKQ}{  YouTube Video editing    } 
+\item \href{https://psm100.org/}{  BAPS PSM Portal : WEB Designing Team -www.psm100.org   }   
+\end{itemize}
+
+\end{itemize}
+\end{itemize}
+
+
+
+
+
+
+
+
+\sectionsep
+
+\end{document}  \documentclass[]{article}
