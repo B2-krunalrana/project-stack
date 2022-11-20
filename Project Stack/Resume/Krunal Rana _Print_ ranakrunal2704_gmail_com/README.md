@@ -21,7 +21,7 @@ This template attempts to **look clean**, highlight **details**, be a **single p
 ![alt tag](https://github.com/B2-krunalrana/project-stack/blob/main/Project%20Stack/Resume/Krunal%20Rana%20_Print_%20ranakrunal2704_gmail_com/Krunal_Rana__Print__ranakrunal2704_gmail_com%20(2)%201%20of%202.png?raw=true)
 
 ### MacFonts
-![alt tag](https://raw.githubusercontent.com/deedydas/Deedy-Resume/master/MacFonts/sample-image.png)
+![alt tag](https://github.com/B2-krunalrana/project-stack/blob/main/Project%20Stack/Resume/Krunal%20Rana%20_Print_%20ranakrunal2704_gmail_com/Krunal_Rana__Print__ranakrunal2704_gmail_com%20(2)%202%20of%202.png?raw=true)
 
 ## Dependencies
 
